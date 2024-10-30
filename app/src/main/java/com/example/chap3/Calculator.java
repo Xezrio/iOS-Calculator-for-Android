@@ -292,6 +292,12 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
     }
 
     private void refreshText(String text) {
+        if (text.equals(getResources().getString(R.string.err))) {
+            displayText = text;
+            tvRes.setText(displayText);
+            return;
+        }
+
         String integerPart = text.contains(".") ? text.split("\\.")[0] : text;
         String decimalPart = "";
 
