@@ -292,7 +292,10 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
     }
 
     private void refreshText(String text) {
-        if (text.equals(getResources().getString(R.string.err))) {
+        if (text.equals(getResources().getString(R.string.err)) || text.contains("E")) {
+            if (!text.contains("r"))
+                text = text.replace("E", "e");
+
             displayText = text;
             tvRes.setText(displayText);
             return;
