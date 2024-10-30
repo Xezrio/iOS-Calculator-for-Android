@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--最外层为蓝色-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00AAFF"
+    android:orientation="vertical">
+
+    <!--外边距margin, 内边距padding-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="#FFFF99"
+        android:padding="60dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000FF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_view_gravity.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_view_gravity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_text_size.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_grid_layout.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_grid_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_text_color.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_calculator.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_view_margin.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_view_margin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_view_border.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_view_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_apple_pay.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\apple_pay.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_apple_pay_dark.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\apple_pay_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_button_style.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_button_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_relative_layout.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_relative_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_image_button.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_image_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_image_scale.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_image_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_icons8_plus_minus.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\icons8_plus_minus.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_button_enable.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_button_enable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_button_long_press.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_button_long_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_button_click.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_button_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_image_text.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_image_text.xml"
+    },
+    {
+        "merged": "com.example.chap3.app-debug-32:/layout_activity_calculator.xml.flat",
+        "source": "com.example.chap3.app-main-34:/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_faceid_60fps.gif.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\faceid_60fps.gif"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\color_purple_500.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\color\\purple_500.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_calculator.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\calculator.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_apple_pay_dark_100.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\apple_pay_dark_100.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\font_helvetica_light.otf.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\font\\helvetica_light.otf"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_text_view.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\layout_activity_scroll_view.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\layout\\activity_scroll_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_layout_bg.xml.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-debug-32:\\font_helvetica_thin.otf.flat",
+        "source": "C:\\Users\\Xezrio\\.gradle\\daemon\\8.7\\com.example.chap3.app-main-34:\\font\\helvetica_thin.otf"
+    }
+]

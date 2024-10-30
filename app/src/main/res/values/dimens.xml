@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_font_size">33sp</dimen>
+    <dimen name="button_height">0dp</dimen>
+<!--    83-->
+    <dimen name="margin_h">3dp</dimen>
+    <dimen name="margin_v">4dp</dimen>
+    <dimen name="btn_mgn">4dp</dimen>
+
+</resources>

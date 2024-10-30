@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" id="calculator">
+  <defs>
+    <linearGradient id="a" x1="59.25" x2="60.76" y1="119.1" y2="-.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4d4d2"></stop>
+      <stop offset="1" stop-color="#d4d4d2"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" fill="url(#a)" rx="26"></rect>
+  <rect width="62" height="90" x="29" y="15" fill="#1c1c1c" rx="8"></rect>
+  <rect width="50" height="21" x="35" y="21" fill="#505050" rx="4"></rect>
+  <circle cx="41" cy="55" r="6" fill="#d4d4d2"></circle>
+  <circle cx="60" cy="55" r="6" fill="#d4d4d2"></circle>
+  <circle cx="79" cy="55" r="6" fill="#fe9500"></circle>
+  <circle cx="41" cy="74" r="6" fill="#d4d4d2"></circle>
+  <circle cx="60" cy="74" r="6" fill="#d4d4d2"></circle>
+  <circle cx="79" cy="74" r="6" fill="#fe9500"></circle>
+  <path fill="#d4d4d2" d="M41 99a6 6 0 0 1 0-12h19a6 6 0 0 1 0 12Z"></path>
+  <circle cx="79" cy="93" r="6" fill="#fe9500"></circle>
+</svg>

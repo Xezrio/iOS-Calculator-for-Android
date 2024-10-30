@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- 确保窗口状态栏是可见的 -->
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>

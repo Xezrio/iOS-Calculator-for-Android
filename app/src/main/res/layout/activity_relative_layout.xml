@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/tv_center_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:text="湾岸Midnight"
+        android:textSize="19sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_relatives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_center_test"
+        android:layout_alignBottom="@id/tv_center_test"
+        android:background="#ffffff"
+        android:text="JDM"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_center_test"
+        android:layout_alignRight="@id/tv_center_test"
+        android:background="#ffffff"
+        android:text="temp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
