@@ -14,4 +14,4 @@
     - 删除字符：向左或向右滑动计算器上的数字
 
 截图预览
-https://ibb.co/8Y7w1CV
+<a href="https://ibb.co/8Y7w1CV"><img src="https://i.ibb.co/VwqGf18/Screenshot-20241031-002204.jpg" alt="Screenshot-20241031-002204" border="0"></a>
