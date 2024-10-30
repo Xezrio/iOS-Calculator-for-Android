@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Chap3"
+rootProject.name = "iOS-Calculator-for-Android"
 include(":app")
  
