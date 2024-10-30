@@ -215,7 +215,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
         else{
             resetButtonColor();
 
-            // preventing len > 9 & multiple dots
+            // preventing multiple dots
             if(inputText.equals(".") && displayText.contains(".")) return;
 
             // after printing the ans and u wanna input a num or smth & theres an "Error"
@@ -223,7 +223,8 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
 
             // append the number to the num
             if(operator.isEmpty()) {
-                if (displayText.length() < 9 || (displayText.length() < 10 && displayText.contains("."))) {
+                int len = displayText.replace(",", "").replace("-", "").length();
+                if (len < 9 || (len < 10 && displayText.contains("."))) {
                     if (useNeg) {
                         firstNum = "-" + firstNum + inputText;
                         useNeg = false;
@@ -236,7 +237,8 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 // when inputting second num i hope this can be cleared
                 if (secondNum.isEmpty()) refreshText("");
 
-                if (displayText.length() < 9 || (displayText.length() < 10 && displayText.contains("."))) {
+                int len = displayText.replace(",", "").replace("-", "").length();
+                if (len < 9 || (len < 10 && displayText.contains("."))) {
                     if (useNeg) {
                         secondNum = "-" + secondNum + inputText;
                         useNeg = false;
@@ -251,8 +253,10 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 refreshText(inputText);
             else if (displayText.equals(("-0")) && !inputText.equals("."))
                 refreshText("-" + inputText);
-            else
+            else {
+                displayText = displayText.replace(",", "");
                 refreshText(displayText + inputText);
+            }
         }
     }
 
@@ -288,18 +292,31 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
     }
 
     private void refreshText(String text) {
-        String integerPart = text.split("\\.")[0];
+        String integerPart = text.contains(".") ? text.split("\\.")[0] : text;
+        String decimalPart = "";
+
+        if (text.contains(".")) {
+            if (text.split("\\.").length > 1)
+                decimalPart = "." + text.split("\\.")[1];
+            else
+                decimalPart = ".";
+        }
+
+        boolean isNeg = text.startsWith("-");
+        if (isNeg)
+            integerPart = integerPart.substring(1);
+
         StringBuilder sb = new StringBuilder(integerPart);
-        for (int i = sb.length() - 3; i >= 0; i -= 3) {
+        for (int i = sb.length() - 3; i > 0; i -= 3) {
             sb.insert(i, ',');
         }
 
-        if (text.contains("."))
-            text = sb + "." + text.split("\\.")[1];
-        else
-            text = sb.toString();
+        if (isNeg)
+            sb.insert(0, "-");
 
-        displayText = text;
+        sb.append(decimalPart);
+
+        displayText = sb.toString();
         tvRes.setText(displayText);
     }
 
@@ -427,6 +444,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
         else
             secondNum = pop_back(secondNum);
 
+        displayText = displayText.replace(",", "");
         refreshText(pop_back(displayText));
     }
 

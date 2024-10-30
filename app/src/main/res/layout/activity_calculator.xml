@@ -25,7 +25,7 @@
         android:textSize="90sp"
         android:fontFamily="@font/helvetica_thin"
         android:gravity="end|bottom"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="38dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="25dp"
         android:clickable="true"
