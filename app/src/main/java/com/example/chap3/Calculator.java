@@ -280,7 +280,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
         refreshOperate("");
         refreshText("0");
 
-        // clear these only when user press CLEAR
+        // clear these only when user click CLEAR
         lastOperator = "";
         lastSecondNum = "";
 
