@@ -99,7 +99,6 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
             btn_clr.setTextSize(33);
         }
 
-        // processing
         if (v.getId() == R.id.btn_neg){
             if (displayText.equals("0")) {
                 useNeg = true;
@@ -110,17 +109,16 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 refreshText("0");
             }
             else if (firstNum.isEmpty()) {
-                // you can let first num to be -0
                 firstNum = "0";
                 useNeg = true;
                 refreshText("-0");
             }
-            // you are inputting first num
+            // Inputting first num
             else if (operator.isEmpty()) {
                 firstNum = stringFormatter(-1 * Double.parseDouble(firstNum));
                 refreshText(firstNum);
             }
-            // you are inputting second num
+            // Inputting second num
             else {
                 if (secondNum.isEmpty()) {
                     secondNum = "0";
@@ -149,7 +147,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 refreshText(secondNum);
             }
         }
-        // operators
+        // Operators
         else if (v.getId() == R.id.btn_add || v.getId() == R.id.btn_minus || v.getId() == R.id.btn_multipy || v.getId() == R.id.btn_divide) {
 
             toggleButtonColor((Button)v);
@@ -188,9 +186,8 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
             else if (secondNum.isEmpty())
                 secondNum = firstNum;
 
-            // num = num
-            if (!operator.isEmpty()){
-                // divided by zero
+            if (!operator.isEmpty()){ // When no operators
+                // when divided by zero
                 if (operator.equals("÷") && secondNum.equals("0"))
                     whenErrorDo();
                 else {
@@ -211,11 +208,11 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 }
             }
         }
-        // numbers and dot
+        // Numbers and Dots
         else{
             resetButtonColor();
 
-            // preventing multiple dots
+            // prevent multiple dots
             if(inputText.equals(".") && displayText.contains(".")) return;
 
             // after printing the ans and u wanna input a num or smth & theres an "Error"
@@ -234,7 +231,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 else return;
             }
             else {
-                // when inputting second num i hope this can be cleared
+                // when inputting second num the text should be cleared
                 if (secondNum.isEmpty()) refreshText("");
 
                 int len = displayText.replace(",", "").replace("-", "").length();
@@ -248,7 +245,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 else return;
             }
 
-            // simple decimal issue
+            // replace the "0" with the num input
             if (displayText.equals("0") && !inputText.equals("."))
                 refreshText(inputText);
             else if (displayText.equals(("-0")) && !inputText.equals("."))
